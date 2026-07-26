@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hariom Jha — Software Engineer</title>
+  <meta name="description" content="Portfolio of Hariom Jha, Software Engineer specializing in Java, Python, SQL, AI/ML and web development.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">Hariom<span class="dot">.</span>dev</div>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="right" id="navRight">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="about.html" target="_blank" rel="noopener">About</a></li>
+          <li><a href="https://drive.google.com/drive/folders/1uDTQzTpVqelFxavvRKGxkPp5r04sHhp6?usp=drive_link"
+              target="_blank" rel="noopener">Certifications</a></li>
+          <li><a href="#contact" class="nav-resume">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="firstSection" id="home">
+      <div class="leftSection reveal">
+        <div class="kicker">// Hi, my name is</div>
+        <h1><span class="gradient-text">Hariom Jha</span></h1>
+        <div class="role-line">I am a passionate <span id="element"></span></div>
+        <p class="hero-desc">Software engineer who enjoys turning algorithms and clean code into
+          interactive products — from AI-assisted tools to full web applications.</p>
+
+        <div class="buttons">
+          <button type="button" class="btn btn-primary"
+            onclick="window.open('https://drive.google.com/file/d/1BYGizox5QrBvvVBzT1LbkaPoWefXrcHC/view?usp=drive_link', '_blank')">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0 4-4m-4 4-4-4M4 19h16"/></svg>
+            Resume
+          </button>
+          <button type="button" class="btn btn-ghost" onclick="window.open('https://github.com/Har-ry123', '_blank')">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49 0-.24-.01-1.04-.01-1.89-2.78.62-3.37-1.21-3.37-1.21-.45-1.19-1.11-1.5-1.11-1.5-.9-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.89 1.57 2.34 1.12 2.91.86.09-.66.35-1.12.63-1.38-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.73 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 5 0c1.91-1.33 2.75-1.05 2.75-1.05.55 1.42.2 2.47.1 2.73.64.72 1.03 1.63 1.03 2.75 0 3.93-2.34 4.79-4.57 5.05.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.6.69.49A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2Z"/></svg>
+            GitHub
+          </button>
+          <button type="button" class="btn btn-ghost" onclick="window.open('https://www.linkedin.com/in/hariom-jha-150249279/', '_blank')">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.94 5a2 2 0 1 1-4-.02 2 2 0 0 1 4 .02ZM3.25 8.75h3.5V21h-3.5V8.75Zm6.25 0h3.35v1.68h.05c.47-.88 1.6-1.8 3.3-1.8 3.53 0 4.18 2.32 4.18 5.34V21h-3.5v-5.5c0-1.31-.02-3-1.83-3-1.83 0-2.11 1.43-2.11 2.9V21h-3.44V8.75Z"/></svg>
+            LinkedIn
+          </button>
+        </div>
+
+        <div class="stat-row">
+          <div><span class="stat-num">3+</span><span class="stat-label">PROJECTS SHIPPED</span></div>
+          <div><span class="stat-num">6</span><span class="stat-label">LANGUAGES &amp; TOOLS</span></div>
+          <div><span class="stat-num">1</span><span class="stat-label">AI CERTIFICATION</span></div>
+        </div>
+      </div>
+
+      <div class="rightSection reveal">
+        <div class="editor-card">
+          <div class="editor-topbar">
+            <span class="editor-dot red"></span>
+            <span class="editor-dot yellow"></span>
+            <span class="editor-dot green"></span>
+            <span class="editor-filename">profile.js</span>
+          </div>
+          <div class="editor-body">
+            <div><span class="ln">1</span><span class="tok-kw">const</span> <span class="tok-key">hariom</span> <span class="tok-punc">=</span> <span class="tok-punc">{</span></div>
+            <div><span class="ln">2</span>&nbsp;&nbsp;<span class="tok-key">role</span><span class="tok-punc">:</span> <span class="tok-str">"Software Engineer"</span><span class="tok-punc">,</span></div>
+            <div><span class="ln">3</span>&nbsp;&nbsp;<span class="tok-key">stack</span><span class="tok-punc">:</span> <span class="tok-arr">["Java", "Python", "C", "SQL"]</span><span class="tok-punc">,</span></div>
+            <div><span class="ln">4</span>&nbsp;&nbsp;<span class="tok-key">focus</span><span class="tok-punc">:</span> <span class="tok-arr">["DSA", "OOP", "AI/ML"]</span><span class="tok-punc">,</span></div>
+            <div><span class="ln">5</span>&nbsp;&nbsp;<span class="tok-key">certified</span><span class="tok-punc">:</span> <span class="tok-kw">true</span><span class="tok-punc">,</span></div>
+            <div><span class="ln">6</span>&nbsp;&nbsp;<span class="tok-key">available</span><span class="tok-punc">:</span> <span class="tok-kw">true</span><span class="cursor-blink"></span></div>
+            <div><span class="ln">7</span><span class="tok-punc">};</span></div>
+          </div>
+        </div>
+        <div class="badge-float badge-1"><img src="ai.png" alt=""></div>
+        <div class="badge-float badge-2"><img src="sql.png" alt=""></div>
+      </div>
+    </section>
+
+    <hr>
+
+    <section class="secondSection" id="skills">
+      <div class="eyebrow reveal">What I work with</div>
+      <h1 class="section-heading reveal">Skills</h1>
+      <span class="section-sub block reveal">A toolkit built through projects, an internship,
+        and steady practice in problem-solving.</span>
+
+      <div class="tech-pills reveal">
+        <span>Java</span><span>Python</span><span>C</span><span>JavaScript</span>
+        <span>SQL</span><span>HTML/CSS</span><span>ReactJS</span><span>NodeJS</span>
+        <span>ExpressJS</span><span>MongoDB</span><span>MySQL</span><span>Git/GitHub</span>
+      </div>
+
+      <div class="box">
+        <div class="vertical reveal">
+          <div class="icon-wrap"><img src="hi.png" alt="Web development icon"></div>
+          <div class="vertical-title">Web Development</div>
+          <div class="vertical-desc">
+            Building responsive, user-friendly interfaces with HTML, CSS and JavaScript, with a working
+            understanding of front-end and back-end fundamentals.
+          </div>
+        </div>
+
+        <div class="vertical reveal">
+          <div class="icon-wrap"><img src="sql.png" alt="SQL icon"></div>
+          <div class="vertical-title">SQL</div>
+          <div class="vertical-desc">
+            Comfortable writing queries to create, read, update and join relational data efficiently.
+          </div>
+        </div>
+
+        <div class="vertical reveal">
+          <div class="icon-wrap"><img src="oops.png" alt="OOP icon"></div>
+          <div class="vertical-title">OOP using Java</div>
+          <div class="vertical-desc">
+            Solid grasp of inheritance, polymorphism, encapsulation and abstraction, applied through DSA
+            practice.
+          </div>
+        </div>
+
+        <div class="vertical reveal">
+          <div class="icon-wrap"><img src="ai.png" alt="AI/ML icon"></div>
+          <div class="vertical-title">AI / ML</div>
+          <div class="vertical-desc">
+            Introductory experience with machine learning concepts, data analysis, and certified prompt
+            engineering for ChatGPT.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projectsSection" id="projects">
+      <div class="eyebrow reveal">Selected work</div>
+      <h1 class="section-heading reveal">Projects</h1>
+      <span class="section-sub block reveal">A few things I've built while learning to turn
+        ideas into working software.</span>
+
+      <div class="project-grid">
+        <div class="project-card reveal">
+          <div class="project-tag">AI Assistant</div>
+          <h3>Smart AI Assistant — GitHub Jan 2026</h3>
+          <p>Built an AI-powered assistant with intelligent query processing and vector search, implementing HNSW, KD-Tree, and brute-force search to improve retrieval speed by 40%.</p>
+          <div class="project-stack"><span>Java</span><span>HTML</span><span>Canvas API</span><span>Ollama</span></div>
+          <a class="project-link" href="https://github.com/Har-ry123/Own-Ai-Assistant" target="_blank" rel="noopener">
+            View on GitHub
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg>
+          </a>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-tag">Travel Platform</div>
+          <h3>WanderLust – Trip Finder Platform — GitHub Oct 2025</h3>
+          <p>Developed a full-stack travel planning platform using MVC architecture, integrated MapBox APIs for real-time geolocation, and built scalable RESTful APIs with ExpressJS and MongoDB.</p>
+          <div class="project-stack"><span>NodeJS</span><span>ExpressJS</span><span>MongoDB</span><span>MapBox</span><span>JavaScript</span></div>
+          <a class="project-link" href="https://github.com/Har-ry123/WanderLust-Main" target="_blank" rel="noopener">
+            View on GitHub
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M7 7h10v10"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="projectsSection" id="internships">
+      <div class="eyebrow reveal">Experience</div>
+      <h1 class="section-heading reveal">Internship</h1>
+      <span class="section-sub block reveal">Hands-on experience building and shipping real-world web products.</span>
+
+      <div class="project-grid">
+        <div class="project-card reveal">
+          <div class="project-tag">Internship</div>
+          <h3>SharePlate – Food Sharing Platform</h3>
+          <p>Developed a food donation platform connecting donors and recipients, built REST APIs and MongoDB schemas for efficient data management, and improved responsiveness while reducing page load time by 35%.</p>
+          <div class="project-stack"><span>ReactJS</span><span>ExpressJS</span><span>MongoDB</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projectsSection" id="certifications">
+      <div class="eyebrow reveal">Achievements</div>
+      <h1 class="section-heading reveal">Certifications</h1>
+      <span class="section-sub block reveal">Professional learning highlights that support my current focus on AI and modern web development.</span>
+
+      <div class="project-grid">
+        <div class="project-card reveal">
+          <div class="project-tag">Certification</div>
+          <h3>Prompt Engineering for ChatGPT</h3>
+          <p>Completed a certification focused on crafting effective prompts, improving AI interactions, and applying prompt design principles in practical workflows.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="ctaSection" id="contact">
+      <div class="cta-card reveal">
+        <div class="eyebrow center">Get in touch</div>
+        <h2>Let's build something amazing together</h2>
+        <p>Open to internships, junior roles and collaborative projects. Reach out — I usually reply within a
+          day.</p>
+        <a href="mailto:hariomjha100@gmail.com?subject=Hello%20Hariom" class="btn btn-primary">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18v12H3z"/><path d="m3 7 9 6 9-6"/></svg>
+          Email Me
+        </a>
+        <div class="email-text">hariomjha100@gmail.com</div>
+        <div class="social-row">
+          <a class="social-icon" href="https://github.com/Har-ry123" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49 0-.24-.01-1.04-.01-1.89-2.78.62-3.37-1.21-3.37-1.21-.45-1.19-1.11-1.5-1.11-1.5-.9-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.89 1.57 2.34 1.12 2.91.86.09-.66.35-1.12.63-1.38-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.73 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 5 0c1.91-1.33 2.75-1.05 2.75-1.05.55 1.42.2 2.47.1 2.73.64.72 1.03 1.63 1.03 2.75 0 3.93-2.34 4.79-4.57 5.05.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.6.69.49A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2Z"/></svg>
+          </a>
+          <a class="social-icon" href="https://www.linkedin.com/in/hariom-jha-150249279/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.94 5a2 2 0 1 1-4-.02 2 2 0 0 1 4 .02ZM3.25 8.75h3.5V21h-3.5V8.75Zm6.25 0h3.35v1.68h.05c.47-.88 1.6-1.8 3.3-1.8 3.53 0 4.18 2.32 4.18 5.34V21h-3.5v-5.5c0-1.31-.02-3-1.83-3-1.83 0-2.11 1.43-2.11 2.9V21h-3.44V8.75Z"/></svg>
+          </a>
+          <a class="social-icon" href="mailto:hariomjha100@gmail.com?subject=Hello%20Hariom" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18v12H3z"/><path d="m3 7 9 6 9-6"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer">
+      <div class="footer-first">
+        <h3>Hariom<span class="dot footer-dot">.</span>dev</h3>
+        <p>Software engineer building clean, functional web experiences and exploring AI/ML along the
+          way.</p>
+      </div>
+      <div class="footer-second">
+        <div class="footer-heading">Navigate</div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+      </div>
+      <div class="footer-third">
+        <div class="footer-heading">More</div>
+        <ul>
+          <li><a href="about.html" target="_blank" rel="noopener">About</a></li>
+          <li><a href="https://drive.google.com/drive/folders/1uDTQzTpVqelFxavvRKGxkPp5r04sHhp6?usp=drive_link" target="_blank" rel="noopener">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-fourth">
+        <div class="footer-heading">Connect</div>
+        <ul>
+          <li><a href="https://github.com/Har-ry123" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/hariom-jha-150249279/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="mailto:hariomjha100@gmail.com?subject=Hello%20Hariom">Email</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-rights">
+      © <span id="year"></span> Hariom Jha — All rights reserved
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    // Typing animation
+    new Typed('#element', {
+      strings: ['Web Developer', 'Web Designer', 'Machine Learning Enthusiast', 'Artificial Intelligence Explorer'],
+      typeSpeed: 50,
+      backSpeed: 25,
+      backDelay: 1400,
+      loop: true
+    });
+
+    // Mobile nav toggle
+    const navToggle = document.getElementById('navToggle');
+    const navRight = document.getElementById('navRight');
+    navToggle.addEventListener('click', () => {
+      const open = navRight.classList.toggle('mobile-open');
+      navToggle.classList.toggle('open', open);
+      navToggle.setAttribute('aria-expanded', open);
+    });
+    navRight.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navRight.classList.remove('mobile-open');
+        navToggle.classList.remove('open');
+        navToggle.setAttribute('aria-expanded', false);
+      });
+    });
+
+    // Scroll reveal
+    const revealEls = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15 });
+    revealEls.forEach(el => observer.observe(el));
+
+    // Footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+
+</html>
